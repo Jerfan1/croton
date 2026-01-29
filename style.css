@@ -395,6 +395,69 @@ nav {
     text-decoration: underline;
 }
 
+.faq-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.faq-item h3 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    color: var(--text-primary);
+}
+
+.faq-item p,
+.faq-item ol {
+    margin-bottom: 0;
+}
+
+.faq-item ol {
+    padding-left: 1.25rem;
+}
+
+.faq-item li {
+    margin-bottom: 0.25rem;
+}
+
+.contact-section {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.contact-section h2 {
+    margin-bottom: 0.75rem;
+}
+
+.contact-section p {
+    margin-bottom: 1.5rem;
+}
+
+.contact-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--accent);
+    color: var(--text-primary);
+    padding: 0.875rem 1.5rem;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.contact-btn:hover {
+    background: #2563eb;
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
 /* ===== FOOTER ===== */
 footer {
     border-top: 1px solid var(--border);
